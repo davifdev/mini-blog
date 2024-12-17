@@ -29,7 +29,7 @@ const Login = () => {
   return (
     <div className={styles.form}>
       <h2>Entrar</h2>
-      <p>Faça login para poder utiliazar o sistema</p>
+      <p>Faça login para poder utilizar o sistema</p>
       <form onSubmit={handleSubmit}>
         <label>
           <span>E-mail:</span>
@@ -55,7 +55,7 @@ const Login = () => {
         </label>
        {!loading && <button className="btn">Entrar</button>}
        {loading && <button className="btn" disabled>Aguarde...</button>}
-        {error && <p className="error">{error}</p>}
+       {error && <p className="error">{error}</p>}
       </form>
     </div>
   );

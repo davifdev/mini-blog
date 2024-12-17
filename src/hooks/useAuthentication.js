@@ -1,4 +1,6 @@
 import { db } from "../firebase/config";
+console.log(db);
+
 import {
   createUserWithEmailAndPassword,
   getAuth,
